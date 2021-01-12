@@ -24,6 +24,9 @@
   margin: 10px;
   font-family: "Courgette", cursive;
 }
+.storymenu .droite {
+  margin: 10px;
+}
 .storymenu .liste {
   display: flex;
 }
