@@ -1,17 +1,27 @@
-/* Error: Indenting at the beginning of the document is illegal.
- *   ,
- * 1 |   .titre
- *   | ^
- *   '
- *   asset/sass/testimony.sass 1:1  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Indenting at the beginning of the document is illegal.\a   \2577 \a 1 \2502    .titre\a   \2502  ^\a   \2575 \a   asset/sass/testimony.sass 1:1  root stylesheet";
+.testimonials {
+  height: 450px;
+  background-image: url("../../public/images/testimonials_background.jpg");
+  color: white;
 }
+
+.titre {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Courgette", cursive;
+}
+
+.card_space {
+  justify-content: space-evenly;
+}
+
+.encard {
+  border: 1px solid #c0bcbc;
+  padding: 14px;
+  height: 170px;
+  border-radius: 10px;
+  width: 300px;
+  font-size: 80%;
+}
+
+/*# sourceMappingURL=testimony.css.map */
