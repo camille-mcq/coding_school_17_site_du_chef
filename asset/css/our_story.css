@@ -1,3 +1,25 @@
+.our_contact {
+  background-image: url("../../public/images/main_bg.jpg");
+  height: 600px;
+}
 
+.titre {
+  font-family: "Courgette", cursive;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.form {
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+  align-items: center;
+  width: 380px;
+  height: 280px;
+  border-radius: 20px;
+  margin-left: 520px;
+}
 
 /*# sourceMappingURL=our_story.css.map */
